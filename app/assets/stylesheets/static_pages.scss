@@ -1,3 +1,84 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*====== Base styles ======*/
+body {
+  background-color: #EBEBEB;
+}
+
+.row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  max-width: 40rem;
+  display: flex;
+  justify-content: center;
+}
+
+/*====== Buttons ======*/
+
+.button {
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  padding: 8px 16px;
+  margin: 0 4px;
+  border-radius: 0.3rem;
+}
+
+.button:hover {
+  color: #7EBDFC;
+}
+
+.action {
+  background-color: #7EBDFC;
+  color: white;
+}
+
+.button.action:hover {
+  color: white;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,.16);
+}
+
+/*====== Menu bar ======*/
+
+.top-bar {
+  background-color: white;
+  height: 56px;
+  padding: 12px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,.16);
+  display: flex;
+  align-items: center;
+}
+
+/*====== Main content ======*/
+
+.main-content {
+  padding: 48px 0 0 12px;
+  z-index: 0;
+  align-items: flex-start;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,.16);
+  margin-bottom: 24px;
+}
+
+.card--padding {
+  padding: 32px;
+}
+
+
+code {
+  font-family: monospace;
+  background-color: #EBEBEB;
+  color: black;
+  padding: 4px;
+  margin-bottom: 4px;
+}

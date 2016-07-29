@@ -1,2 +1,59 @@
-<h1>StaticPages#git</h1>
-<p>Find me in app/views/static_pages/git.html.erb</p>
+<h1>Keep calm and use Git</h1>
+
+<p>
+  This guide asumes you already have git installed and configured in your machine.
+  If not, refer to <a href="https://help.github.com/articles/set-up-git/"> Set up git</a>
+  on the github website.
+</p>
+
+<h4>Initialize a repository</h4>
+<p>
+  To initialize a repository from an existing project:
+</p>
+<ol>
+  <li>Open your terminal application</li>
+  <li>Navigate to the repository folder using the <code>cd</code> unix command</li>
+  <li>Be sure to save all the files you've been working on</li>
+  <li>Type <code>git init</code> and press enter</li>
+  <li>Done! Your local git repo has been initialized</li>
+</ol>
+
+<h4>Create a new branch</h4>
+<p>
+  To create a new branch from an existing branch:
+</p>
+<ol>
+  <li>Navigate to your folder (if you aren't there already) </li>
+  <li>Be sure to save all your file, commit and push all changes</li>
+  <li>In the termian window type: <code>git checkout -b my-new-branch</code></li>
+  <li>Done! You have created a new branch and you are currently working inside that branch</li>
+</ol>
+
+<h4>Commiting changes</h4>
+<p>
+  Asuming you're in your project folder...
+</p>
+<ol>
+  <li>Save all the files you've been working on</li>
+  <li>On the terminal window navigate to your project folder</li>
+  <li>Add all files to the staging area using <code>git add -A</code>.
+    <br>
+    The <code>-A</code> flag adds all modified and new files.
+  </li>
+  <li>Commit changes using <code>git commit -m "Add  your commit message"</code>
+    <br>
+    Be sure to add a commit message in the present tense.
+    Your message must be short and should explain what the commit does.
+    <em>Example</em>
+    <code>git commit -m "Initialize repository"</code>
+  </li>
+  <li>Use <code>git push</code> if you have a remote repository</li>
+</ol>
+
+<h5>Using a remote repository</h5>
+<ol>
+  <li>Create a repository on <a href="http://github.com">github.com</a></li>
+  <li>Navigate to your project folder in a terminal window.</li>
+  <li>Use <code>git remote add origin http://github.com/username/reponame.git</code></li>
+  <li>Use <code>git push -u origin master</code></li>
+</ol>

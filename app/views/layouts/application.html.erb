@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>E1p1</title>
-    <%= csrf_meta_tags %>
+<head>
+  <title>E1p1</title>
+  <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
 
-  <body>
-    <%= yield %>
-  </body>
+<body>
+
+  <header class="top-bar">
+    <div class="row">
+      <%= link_to 'Home', static_pages_home_path, :class=>"button action" %>
+      <%= link_to 'Ruby', static_pages_ruby_path, :class=>"button action" %>
+      <%= link_to 'Git', static_pages_git_path, :class=>"button action" %>
+      <span class="button"><%= Time.now.strftime("%A, %d %b %Y %l:%M %p") %></span>
+    </div>
+  </header>
+  <div class="main-content">
+    <div class="row">
+      <div class="card card--padding">
+        <%= yield %>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
