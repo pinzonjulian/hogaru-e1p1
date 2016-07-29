@@ -1,5 +1,7 @@
 #Examen 1 Problema 1
 
+[Link a la App](https://hogaru-e1p1.herokuapp.com)
+
 Este ejercicio busca probar la claridad adquirida en el proceso de:
 
 1. Crear una aplicación Rails nueva
@@ -21,22 +23,22 @@ Cree una aplicación Rails nueva con 1 controlador y 3 páginas estáticas. El e
 
 - La página estática 1 debe ser accedida a través del path /ruby y debe contener un resumen de cómo se realizan las siguientes acciones en ruby:
 
-⋅⋅- Interpolación de strings
+⋅⋅* Interpolación de strings
 
-⋅⋅- Cómo se declara un array y cómo se adiciona un elemento al final del array
+⋅⋅* Cómo se declara un array y cómo se adiciona un elemento al final del array
 
-⋅⋅- Cómo se itera un array utilizando el comando each
+⋅⋅* Cómo se itera un array utilizando el comando each
 
-⋅⋅- Cómo se declara un hash
+⋅⋅* Cómo se declara un hash
 
 - La página estática 2 debe ser accedida a través del path /git y debe contener un resumen de cómo se realizan las siguientes acciones en git:
 
-⋅⋅- Inicialización de un repositorio de git nuevo en una aplicación existente
+⋅⋅* Inicialización de un repositorio de git nuevo en una aplicación existente
 
-⋅⋅- Creación de un branch nuevo
+⋅⋅* Creación de un branch nuevo
 
-⋅⋅- Realizar un commit incluyendo todos los cambios actuales
+⋅⋅* Realizar un commit incluyendo todos los cambios actuales
 
-⋅⋅- Cómo enviar el código al repositorio remoto
+⋅⋅* Cómo enviar el código al repositorio remoto
 
 *No es necesario realizar tests automatizados para esta prueba.*
